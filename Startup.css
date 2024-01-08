@@ -1,0 +1,166 @@
+ /* font */
+@font-face {
+    font-family: Anton-Regular.ttf;
+    src:url(font/Anton-Regular.ttf);
+}
+
+*{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+}
+h1 h2 h3 h4 h5 h6{
+font-family: Anton-Regular.ttf;
+}
+/* body */
+body{
+    margin: 0;
+}
+.all-padding{
+    padding: 0 7%;
+}
+
+/* topbarr */
+#topbar{
+     background-color: rgb(79, 89, 203);
+     padding-top: 18px;
+     padding-bottom: 18px;
+     overflow: auto;
+     
+} 
+#toll-free{
+    float: left;
+    color: white;
+}
+
+#social-icon{
+    float: right;
+
+}
+.fa-brands{
+    background-color: rgb(10, 29, 197);
+    color: antiquewhite;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+/* middal baar */
+#mdlbar{
+    background-color: blanchedalmond;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+.img{
+    border: 5px solid yellowgreen;
+    border-radius: 50px;
+    float: left;
+}
+#startup{
+    float: left;
+}
+#list{
+    float: right;  
+    
+
+}
+#list li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.a{
+    color: rgb(10, 19, 8);
+    text-decoration:none ;
+    font-family: Anton-Regular.ttf;
+}
+#button{
+    color: white;
+    background-color: rgb(23, 58, 142);
+    border: 3px solid rosybrown;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 18px;
+}
+/* posster */
+#poster{
+    background-image: url(img/bgpic.jpg);
+    height: 800px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.hadding{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 70px;   
+}
+.pg{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    white-space: pre;
+}
+
+.btn {
+    background-color: #f4511e;
+    border: 5px solid rgb(15, 174, 210);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    font-size: 30px;
+    opacity: 0.8;
+    transition: 0.3s;
+    position: relative;
+    top: 4%;
+    left: 38%;
+  }
+  .btn:hover {opacity: 1}
+  /* footter */
+
+#imp-link{
+    background-color: rgb(212, 156, 34);
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 31px 30px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-contaner{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: rgb(5, 34, 24);
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+}
